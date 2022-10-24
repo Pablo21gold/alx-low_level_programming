@@ -5,7 +5,7 @@
  * swap_int - swap values of two nums
  *@b : first pointer
  *@a : second pointer
- * Return: vold or nothing
+ * Return: void or nothing
  */
 
 
