@@ -1,10 +1,10 @@
 #include "main.h"
-#include <studio.h>
+#include <studio>
 
 /**
- * reset_to_98 - take a pointer and update it to 98
- * @n : a pointer 
- * Return : void Basically nothing ls returned
+ * reset_to_98 - take a pouinter and update it to 98
+ * @ : a pointer
+ * Rturn :vold, Basically nothing is returned
  */
 
 void reset_to_98(int *n);
