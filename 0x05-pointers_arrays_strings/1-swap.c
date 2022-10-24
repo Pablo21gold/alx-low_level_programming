@@ -8,10 +8,11 @@
  * Return: vold or nothing
  */
 
+
 void swap_int(int *a, int *b);
 {
 	int constant = *a;
-	*b = *a;
-	*a = constant;
+	*a = *b;
+	*b = constant;
 }
 
