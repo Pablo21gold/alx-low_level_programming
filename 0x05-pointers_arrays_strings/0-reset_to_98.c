@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - a function that takes a pointer to an int as parameter
- * and updates the value it points to to 98
- * @n: input
- * Return: n
+ * reset_to_98 - take a pointer and updzate it to 98
+ * @n : a pointer
+ * Return : vold, Basically nothing is returned
  */
+
 void reset_to_98(int *n)
 {
-		*n = 9;
+		*n = 98;
 }
 
