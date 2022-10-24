@@ -2,17 +2,15 @@
 #include <stdio.h>
 
 /**
- * swap_int - swap values of two nums
- *@b : first pointer
- *@a : second pointer
- * Return: void or nothing
+ * swap_int - a function that swaps the values of two integers
+ * @a: input 1
+ * @b: input 2
+ * Return: integers
  */
-
-
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-int constant = *a;
-*a = *b;
-*b = constant;
+	int n;
+	n = *a;
+	*a = *b;
+	*b = n;
 }
-
