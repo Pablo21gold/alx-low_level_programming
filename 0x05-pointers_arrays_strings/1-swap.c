@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_int - swap values of two numbs
+ * swap_int - swap values of two nums
  * @b : first pointer
  * @a : second pointer
  * Return: vold or nothing
