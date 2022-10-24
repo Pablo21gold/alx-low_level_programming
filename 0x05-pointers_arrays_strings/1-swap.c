@@ -3,14 +3,14 @@
 
 /**
  * swap_int - swap values of two nums
- * @b : first pointer
- * @a : second pointer
+ *@b : first pointer
+ *@a : second pointer
  * Return: vold or nothing
  */
 
 void swap_int(int *a, int *b);
 {
-	int constant =*a;
+	int constant = *a;
 	*b = *a;
 	*a = constant;
 }
