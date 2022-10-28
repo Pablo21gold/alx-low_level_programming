@@ -10,7 +10,10 @@ int mai(void)
 
 	while (*sh)
 	{
-		_putchar('\n');
-
-		return (0);
+		_putchar(*sh);
+		sh++;
 	}
+	_putchar('\n');
+
+	return (0);
+}
